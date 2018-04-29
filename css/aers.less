@@ -1,0 +1,169 @@
+@green: #56d8a2;
+@red: #f3929c;
+@blue: #64c5ff;
+@grey: #c1c1c1;
+
+header.aers-header {
+  color: @green;
+  margin: 20px 0;
+  img {
+    width: 150px;
+    height:150px;
+  }
+  p {
+    color: black;
+    font-size: 1.2em;
+  }
+}
+
+
+.btn-outline-danger{
+  color:@red;
+  border-color: @red;
+  &:hover{
+    background:@red;
+    border-color: @red;
+    color: white;
+  }
+}
+
+
+.item-name {
+  color: black;
+  &:hover {
+    color: @green;
+  }
+}
+
+
+form.login{
+  width: 360px;
+  margin: 0 auto;
+
+  input::placeholder{
+    color: @grey;
+  }
+
+  input:focus{
+    border-color: @green;
+  }
+  &>p{
+    text-align: center;
+  }
+}
+
+.btn-aers{
+  border-color: @blue;
+  background: transparent;
+  color: @blue;
+  &:hover {
+    background: @blue;
+    color: white;
+  }
+}
+
+.git-icon{
+  font-size: 2em;
+  margin-top: 20px;
+  a, a:visited, a:link {
+    color: @grey;
+  }
+  a:hover {
+    color: @blue;
+  }
+}
+
+#showrandom {
+  margin-top:10px;
+  display: none;
+  text-align: center;
+}
+
+img.aers-product{
+  width: 100%;
+  height: 198px
+}
+
+.fa-star{
+  color: #ffc107;
+}
+
+
+.fa-dollar-sign{
+  color: @red;
+  font-size: 1.5em;
+}
+
+.card-text {
+  font-size: 1em;
+}
+
+.card-body {
+  background: #f5f5f5;
+}
+
+
+.detail-img {
+  width: 100%;
+  height: 400px
+}
+
+.card-block {
+  margin-bottom: 40px;
+  .card{
+    margin: 10px 0;
+  }
+
+  .btn-link {
+    color: grey;
+    text-decoration: none;
+    &:hover{
+      color: black;
+      text-decoration: none;
+    }
+    .fa-caret-square-down{
+      color:#00a0ff;
+      &:hover{
+        color:#00a0ff;
+      }
+    }
+  }
+
+  .card-header:hover{
+    cursor: pointer;
+  }
+}
+
+.output {
+  background: #fbfaf5;
+  border-left: 5px solid #ffe819;
+  padding: 10px;
+  color: #FFC107;
+  margin-bottom: 20px;
+  p {
+    color: black;
+    margin: 0;
+  }
+}
+
+.model-b {
+  border: 2px solid @green;
+  padding: 3px;
+  color: @green;
+  background: transparent;
+}
+
+.model-e {
+  border: 2px solid @red;
+  padding: 3px;
+  color: @red;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.egraph {
+  width: 600px;
+  height: 800px;
+  margin: 0 auto;
+}
+
