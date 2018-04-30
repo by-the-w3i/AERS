@@ -6,7 +6,7 @@ Amazon Electronics Recommendation System
 
 [Web Interface](http://webdev.cse.msu.edu/~jiangw14/cse482-AERS/)
 
-### Login 
+### Login Samples
 
 |UserID|Password|
 |--|--|
