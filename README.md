@@ -2,7 +2,7 @@
 Amazon Electronics Recommendation System
 
 ## Useful links
-[Online Report](http://webdev.cse.msu.edu/~jiangw14/cse482-AERS/repot.php)
+[Online Report](http://webdev.cse.msu.edu/~jiangw14/cse482-AERS/report.php)
 
 [Web Interface](http://webdev.cse.msu.edu/~jiangw14/cse482-AERS/)
 
