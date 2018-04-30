@@ -803,8 +803,17 @@ train()
 
     <h2>Recommendation API</h2>
     <div class="alert alert-success" role="alert">
-        We also provide the recommend code and models for you to run locally.
+        We also provide the recommend code and models for you to run on local.
+        <hr/>
+        Download the <a href="http://webdev.cse.msu.edu/~jiangw14/cse482-AERS/BigDataAnalysis/"> Preprocessed data</a>
     </div>
+    <pre>
+        <code class="bash">
+$ python3 recommendAPI.py NMF A1QJDY7QVILLJ7 3
+
+> [(4.919113222520594, 'B0076NA716'), (4.765648060115675, 'B001GDEM5O'), (4.683369893962228, 'B00003CWG2')]
+        </code>
+    </pre>
 
 
 
@@ -813,7 +822,7 @@ train()
     <p><i class="fas fa-laptop"></i><a href="http://webdev.cse.msu.edu/~jiangw14/cse482-AERS/"> Web Interface Demo</a></p>
     <p><i class="fab fa-github-alt"></i><a href="https://github.com/by-the-w3i/AERS/"> Github</a></p>
     <p><i class="fas fa-database"></i><a href="http://webdev.cse.msu.edu/~jiangw14/cse482-AERS/BigDataAnalysis/"> Preprocessed data</a></p>
-    <p><i class="fas fa-cloud-download-alt"></i><a href="https://github.com/by-the-w3i/AERS/"> Recommendation API download</a></p>
+    <p><i class="fas fa-cloud-download-alt"></i><a href="http://webdev.cse.msu.edu/~jiangw14/cse482-AERS/FinalReport.pdf"> Download Report</a></p>
 
 
     <h2>References</h2>
@@ -825,13 +834,13 @@ train()
     option = {
         title : {
             text: 'Data Collection',
-            subtext: '133,309 Users + 62997 Items + 1,393,718 Reviews',
+            subtext: '133,309 Users + 62,997 Items + 1,393,718 Reviews',
             x:'center'
 
         },
         tooltip : {
             trigger: 'item',
-            formatter: "{b} <br/>{c}",
+            formatter: "{b} <br/>{c}"
         },
         legend: {
             x : 'center',
@@ -862,7 +871,7 @@ train()
                 ]
             }
         ],
-        color:['#64C5FF','#FF9F00', '#FFBAFE']
+        color:['#64C5FF','#FFCE0D', '#FFBAFE']
     };
 
     var dataChart = echarts.init(document.getElementById("datareport"));
@@ -872,7 +881,7 @@ train()
     option2 = {
         title: {
             text: 'Evaluating RMSE, MAE of different algorithms',
-            subtext: '133,309 Users + 62997 Items + 1,393,718 Reviews',
+            subtext: '133,309 Users + 62,997 Items + 1,393,718 Reviews',
             x:'center'
         },
         tooltip: {

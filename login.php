@@ -18,7 +18,7 @@ unset($_SESSION["SYSTEM_SESSION"]);
     </header>
     <div class="input-group mb-3">
         <input name="userID" type="text" class="form-control" aria-label="Default"
-               aria-describedby="inputGroup-sizing-default" placeholder="user ID: A12345678">
+               aria-describedby="inputGroup-sizing-default" placeholder="user ID: click last button to get random id">
     </div>
     <div class="input-group mb-3">
         <input name="passWD" type="password" class="form-control" aria-label="Default"

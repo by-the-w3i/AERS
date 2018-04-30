@@ -126,6 +126,7 @@ img.aers-product{
       &:hover{
         color:#00a0ff;
       }
+      animation: blinker 1s linear infinite;
     }
   }
 
@@ -165,5 +166,11 @@ img.aers-product{
   width: 600px;
   height: 800px;
   margin: 0 auto;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
